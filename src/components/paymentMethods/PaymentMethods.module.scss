@@ -1,0 +1,73 @@
+@import "../../assets/styles/mixines";
+@import "../../assets/styles/variables";
+
+.Wrapper {
+  @include Wrapper;
+
+  .Container {
+    @include MainContainer;
+    @include FLexCol;
+    align-items: center;
+    justify-content: flex-start;
+    background: rgba(245, 247, 251, .5);
+    box-shadow: 0 8px 40px rgba(79, 87, 91, 0.22);
+    border-radius: 20px;
+    border: 0;
+    padding: 40px;
+
+
+    .Title {
+      color: rgb(60, 60, 60);
+      font-family: "Proxima-Regular";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 34px;
+      line-height: 44px;
+    }
+
+    .PaymentMethods {
+      @include FLexRow;
+      width: 100%;
+      justify-content: space-evenly;
+      margin-top: 70px;
+      @include break($breakpoint_xl) {
+        column-gap: 20px;
+        flex-wrap: wrap;
+        row-gap: 30px;
+      }
+
+      .PaymentMethod {
+        @include FLexCol;
+        align-items: center;
+        background: #fdfdfd;
+        border: 2px solid #fff;
+        box-shadow: 0 8px 40px rgba(151, 197, 222, .1);
+        border-radius: 10px;
+        text-align: center;
+        padding: 15px;
+        min-width: 230px;
+        max-height: 280px;
+        @include break($breakpoint_xl) {
+          min-width: 210px;
+        }
+
+        .MethodImg {
+          max-width: 150px;
+          max-height: 150px;
+        }
+
+        p {
+          font-family: "Proxima-Regular";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 22px;
+          color: #3c3c3c;
+          display: block;
+          padding: 16px 0;
+          max-width: 150px;
+        }
+      }
+    }
+  }
+}

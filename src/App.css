@@ -1,0 +1,11 @@
+.App {
+    background: url("./assets/images/bgradial.png") -500px -550px/75% no-repeat fixed,
+    url("./assets/images/bgradial2.png") -50px 0px/35% no-repeat fixed,
+    /*url("./assets/images/bgradial.png") 110% top/50% no-repeat fixed,*/
+    url("./assets/images/bgradial3.png") 110% top/45% no-repeat fixed,
+    url("./assets/images/bgradial2.png") 135% top/45% no-repeat fixed,
+    url("./assets/images/bgradial.png") 125% top/45% no-repeat fixed
+    /*url("./assets/images/bgradial2.png") 120% top/40% no-repeat fixed*/
+    /*url("./assets/images/bgradial4.png") 150% 0 no-repeat fixed*/
+    /*background-size: 50%;*/
+}

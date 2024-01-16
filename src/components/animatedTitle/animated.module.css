@@ -1,0 +1,23 @@
+.Title {
+    font-size: 65px;
+    font-weight: 600;
+    color: purple;
+}
+
+.Word {
+    display: inline-block;
+    margin-right: 0.25em;
+    white-space: nowrap;
+}
+
+.Character {
+    display: inline-block;
+    margin-right: -0.05em;
+}
+
+.WrapperLetter {
+
+    overflow: hidden;
+    display: flex;
+    font-size: 2rem;
+}

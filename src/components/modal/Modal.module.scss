@@ -1,0 +1,117 @@
+@import "../../assets/styles/mixines";
+
+.Carpet {
+  width: 100%;
+  height: 100%;
+  background: rgba(60, 60, 60, 0.45);
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  .Wrapper {
+    width: 100%;
+    //height: 100%;
+    max-width: 580px;
+    box-shadow: 0 8px 40px rgba(151, 197, 222, .2);
+    border: 2px solid #fbfbfb;
+    border-radius: 20px;
+    position: absolute;
+    top:50%;
+    transform: translate(50%, -50%);
+    z-index: 100;
+    padding: 40px;
+    margin: 0 auto;
+    background: radial-gradient(65.24% 49.39% at 50.07% 109.16%, #c5d7fa 0, rgba(197, 215, 250, 0) 100%), radial-gradient(65.24% 49.39% at 50.07% 109.16%, #c5d7fa 0, rgba(197, 215, 250, 0) 100%), radial-gradient(113.48% 150.73% at 133.07% 93.42%, #cdf0fd 0, rgba(205, 240, 253, 0) 53.56%), radial-gradient(37.98% 64.51% at -5.67% 82.36%, #e5e7ff 0, rgba(229, 231, 255, 0) 100%), #fff;
+
+    .Container {
+      width: 100%;
+      @include FLexCol;
+
+      .ContainerWrapper {
+        @include FLexRow;
+        width: 100%;
+        justify-content: space-between;
+      }
+
+      .Title {
+        font-family: "Nunito-SemiBold";
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 29px;
+        color: rgb(60, 60, 60);
+        text-align: left;
+
+        span {
+          color: #01c9bb;
+        }
+      }
+
+      p {
+        font-family: "Proxima-Regular";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+        color: #3c3c3c;
+        text-align: left;
+        margin: 24px 0 40px 0;
+        max-width: 400px;
+      }
+
+      .ContactBlock {
+        @include FLexCol;
+        align-items: flex-start;
+        justify-content: flex-start;
+        row-gap: 30px;
+        width: 100%;
+
+        .Input, .InputQ {
+          font-family: "Proxima-Regular";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          width: 100%;
+          line-height: 24px;
+          color: #212529;
+          padding: 14px 16px;
+          background: #fff;
+          box-shadow: 0 10px 30px rgba(232, 246, 248, .7);
+          border-radius: 3px;
+          height: 60px;
+          outline: none;
+          border: none;
+        }
+
+        .InputQ {
+          min-height: 120px;
+        }
+
+        .BtnWrapper {
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: flex-start;
+
+          .Btn {
+            width: 100%;
+            max-width: 210px;
+            @include BtnConnect;
+          }
+
+          p {
+            display: block;
+            font-size: 12px;
+            font-family: "Proxima-Regular";
+            font-weight: 300;
+            text-align: left;
+            margin-left: 20px;
+            color: #3c3c3c;
+            max-width: 280px;
+          }
+        }
+
+      }
+    }
+  }
+}

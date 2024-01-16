@@ -1,0 +1,35 @@
+@import "../../assets/styles/mixines";
+
+
+.Wrapper {
+  @include Wrapper;
+  padding: 100px 50px;
+  @include break($breakpoint_l) {
+    padding: 60px 25px;
+  }
+
+  .Container {
+    @include MainContainer;
+    @include FLexCol;
+
+    .Title {
+      color: rgb(60, 60, 60);
+      color: #01c9bb;
+      font-family: "Proxima-Regular";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 34px;
+      line-height: 44px;
+    }
+
+    p {
+      font-family: "Proxima-Regular";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 22px;
+      color: #3c3c3c;
+      margin-top: 70px;
+    }
+  }
+}

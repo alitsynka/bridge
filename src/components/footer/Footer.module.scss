@@ -1,0 +1,65 @@
+@import "../../assets/styles/mixines";
+
+.Wrapper {
+  @include Wrapper;
+  background: radial-gradient(75.59% 301.95% at 95.42% 93.64%, #312d70 0, rgba(49, 45, 112, 0) 100%), #7870d4;
+  position: relative;
+  top: 90px;
+  padding: 70px 85px;
+  @include break($breakpoint_s) {
+    padding: 80px 25px 40px 25px;
+  }
+
+  .Container {
+    @include MainContainer;
+    @include FLexCol;
+
+    > div:first-child {
+      @include FLexRow;
+      justify-content: space-between;
+      border-bottom: 1px solid rgb(255, 255, 255);
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      @include break($breakpoint_l) {
+        flex-wrap: wrap;
+        column-gap: 20px;
+        row-gap: 30px;
+        justify-content: space-evenly;
+      }
+
+      .LogoBlock {
+        p {
+          font-family: 'Proxima-Bold';
+          font-size: 28px;
+          line-height: 36px;
+          letter-spacing: 0.01em;
+        }
+      }
+
+      .Contact {
+        color: rgb(255, 255, 255);
+        font-family: 'Proxima-Regular';
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: 0.01em;
+        text-align: right;
+        @include break($breakpoint_l) {
+          text-align: center;
+          + .Contact {
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+
+    .Allrights {
+      color: rgb(255, 255, 255);
+      font-family: 'Proxima-Regular';
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 0.01em;
+      margin-top: 20px;
+    }
+
+  }
+}
