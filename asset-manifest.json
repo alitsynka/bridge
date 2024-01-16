@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bridge/static/css/main.85cb7e7c.css",
-    "main.js": "/bridge/static/js/main.b5142569.js",
+    "main.css": "/bridge/static/css/main.533aed30.css",
+    "main.js": "/bridge/static/js/main.bf40ac04.js",
     "static/js/787.016dd43c.chunk.js": "/bridge/static/js/787.016dd43c.chunk.js",
     "static/media/bgradial3.png": "/bridge/static/media/bgradial3.4d6971d8bc00ac575e89.png",
     "static/media/bgradial.png": "/bridge/static/media/bgradial.23d1e2bef7a223994635.png",
@@ -23,13 +23,12 @@
     "static/media/valuta.svg": "/bridge/static/media/valuta.f5aa4de49ded69b90b93f9633799ba1d.svg",
     "static/media/time.svg": "/bridge/static/media/time.23f526dc1afdd1c85b70e7c10b3e995e.svg",
     "index.html": "/bridge/index.html",
-    "static/media/charm_menu-hamburger.svg": "/bridge/static/media/charm_menu-hamburger.20ef71ba434f56faad6ddb81a95dd01a.svg",
-    "main.85cb7e7c.css.map": "/bridge/static/css/main.85cb7e7c.css.map",
-    "main.b5142569.js.map": "/bridge/static/js/main.b5142569.js.map",
+    "main.533aed30.css.map": "/bridge/static/css/main.533aed30.css.map",
+    "main.bf40ac04.js.map": "/bridge/static/js/main.bf40ac04.js.map",
     "787.016dd43c.chunk.js.map": "/bridge/static/js/787.016dd43c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85cb7e7c.css",
-    "static/js/main.b5142569.js"
+    "static/css/main.533aed30.css",
+    "static/js/main.bf40ac04.js"
   ]
 }
