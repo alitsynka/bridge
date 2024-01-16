@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/react-app/static/css/main.bb29e3f1.css",
+    "main.js": "/react-app/static/js/main.b2d5af38.js",
+    "static/js/787.016dd43c.chunk.js": "/react-app/static/js/787.016dd43c.chunk.js",
+    "static/media/bgradial3.png": "/react-app/static/media/bgradial3.4d6971d8bc00ac575e89.png",
+    "static/media/bgradial.png": "/react-app/static/media/bgradial.23d1e2bef7a223994635.png",
+    "static/media/bg.png": "/react-app/static/media/bg.21a010733f93d74e57a2.png",
+    "static/media/bgradial2.png": "/react-app/static/media/bgradial2.681620341ca45b2d7031.png",
+    "static/media/proximanova_regular.ttf": "/react-app/static/media/proximanova_regular.8181ca4b7c2d1189d78a.ttf",
+    "static/media/block_6_h_3.d3e346ba.png": "/react-app/static/media/block_6_h_3.d3e346ba.c9d098e1ac39bbea6b7a.png",
+    "static/media/block_11_h_2.ea80990a.png": "/react-app/static/media/block_11_h_2.ea80990a.0ba4b990ea592b0654fd.png",
+    "static/media/block_6_h_4.ba3c8e88.png": "/react-app/static/media/block_6_h_4.ba3c8e88.6932053b9cdcb328a7dc.png",
+    "static/media/block_6_h_2.ca921971.png": "/react-app/static/media/block_6_h_2.ca921971.d071c7446ef54f505560.png",
+    "static/media/NunitoSans_10pt-SemiBold.ttf": "/react-app/static/media/NunitoSans_10pt-SemiBold.39af491f33e04d1f69b6.ttf",
+    "static/media/proximanova_bold.otf": "/react-app/static/media/proximanova_bold.fcaab2524c5baabd71f6.otf",
+    "static/media/proximanova_light.otf": "/react-app/static/media/proximanova_light.9d69a5449e101ad71e3d.otf",
+    "static/media/Roud.png": "/react-app/static/media/Roud.11c4918ac91ccbf7fedc.png",
+    "static/media/amazon.svg": "/react-app/static/media/amazon.d1f406e7508df52a0fcd567d78c05050.svg",
+    "static/media/cubes.svg": "/react-app/static/media/cubes.094ace1af325d32e0f92a700bc7bc32d.svg",
+    "static/media/adsense.svg": "/react-app/static/media/adsense.c387d897839c516a83b7bb4e051f7cad.svg",
+    "static/media/admob.svg": "/react-app/static/media/admob.55c6245671f5417323437a3119cf1e5d.svg",
+    "static/media/valuta.svg": "/react-app/static/media/valuta.f5aa4de49ded69b90b93f9633799ba1d.svg",
+    "static/media/time.svg": "/react-app/static/media/time.23f526dc1afdd1c85b70e7c10b3e995e.svg",
+    "index.html": "/react-app/index.html",
+    "static/media/charm_menu-hamburger.svg": "/react-app/static/media/charm_menu-hamburger.20ef71ba434f56faad6ddb81a95dd01a.svg",
+    "main.bb29e3f1.css.map": "/react-app/static/css/main.bb29e3f1.css.map",
+    "main.b2d5af38.js.map": "/react-app/static/js/main.b2d5af38.js.map",
+    "787.016dd43c.chunk.js.map": "/react-app/static/js/787.016dd43c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb29e3f1.css",
+    "static/js/main.b2d5af38.js"
+  ]
+}
