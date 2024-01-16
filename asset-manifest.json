@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-app/static/css/main.bb29e3f1.css",
-    "main.js": "/react-app/static/js/main.b2d5af38.js",
+    "main.css": "/react-app/static/css/main.0cf34bdf.css",
+    "main.js": "/react-app/static/js/main.28aa02b1.js",
     "static/js/787.016dd43c.chunk.js": "/react-app/static/js/787.016dd43c.chunk.js",
     "static/media/bgradial3.png": "/react-app/static/media/bgradial3.4d6971d8bc00ac575e89.png",
     "static/media/bgradial.png": "/react-app/static/media/bgradial.23d1e2bef7a223994635.png",
@@ -24,12 +24,12 @@
     "static/media/time.svg": "/react-app/static/media/time.23f526dc1afdd1c85b70e7c10b3e995e.svg",
     "index.html": "/react-app/index.html",
     "static/media/charm_menu-hamburger.svg": "/react-app/static/media/charm_menu-hamburger.20ef71ba434f56faad6ddb81a95dd01a.svg",
-    "main.bb29e3f1.css.map": "/react-app/static/css/main.bb29e3f1.css.map",
-    "main.b2d5af38.js.map": "/react-app/static/js/main.b2d5af38.js.map",
+    "main.0cf34bdf.css.map": "/react-app/static/css/main.0cf34bdf.css.map",
+    "main.28aa02b1.js.map": "/react-app/static/js/main.28aa02b1.js.map",
     "787.016dd43c.chunk.js.map": "/react-app/static/js/787.016dd43c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb29e3f1.css",
-    "static/js/main.b2d5af38.js"
+    "static/css/main.0cf34bdf.css",
+    "static/js/main.28aa02b1.js"
   ]
 }
