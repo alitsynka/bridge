@@ -2,7 +2,6 @@
 
 .HumburgerMenu {
   display: none;
-  background: purple;
   @include break($breakpoint_xl) {
     display: block;
   }
@@ -15,19 +14,14 @@
   }
 }
 
-.WrapperSideBar {
-  //border: 2px dashed #0edc0e;
-}
 
 .WrapperSideBar > div:nth-child(3) {
   top: 90px;
   min-width: 40%;
-  //border: 2px dashed mediumvioletred;
 
   .Link {
     > span {
-      //color: mediumvioletred;
-      //text-transform: uppercase;
+
       font-family: "Proxima-Regular" !important;
       font-size: 20px !important;
       line-height: 35px !important;

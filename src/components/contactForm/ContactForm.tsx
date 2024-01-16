@@ -44,6 +44,7 @@ export const ContactForm = () => {
                 <img src={telegramImg2} alt="" className={style.TelegramImg2}/>
                 <h3>
                     Подпишитесь на наш <span>Telegram-канал</span>
+                    <img src={telegramImg2} alt="" className={style.TelegramImg3}/>
                 </h3>
                 <input type="email" className={style.Input} placeholder={'Email'}/>
                 <a href={"#"} className={style.Subscribe}>Подписаться</a>
